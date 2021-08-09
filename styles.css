@@ -10,5 +10,7 @@
 }
 
 #search_bar {
-    
+    border-style: solid;
+    margin-left: 24em;
+    padding-left: 30em;
 }
