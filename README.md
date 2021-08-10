@@ -1,0 +1,1 @@
+At this stage of my OdinProject journey, I was tasked with building a copy of the google homepage. In this project I utilized the HTML and CSS skills I most recently learned. Although not a complete carbon copy of the Google website as it appears today ( as of completion), I am proud of how similar it looks to the Google Homepage to the untrained eye. 

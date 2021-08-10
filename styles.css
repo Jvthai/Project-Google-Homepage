@@ -7,6 +7,9 @@
 
 .logo {
     margin-top: 10em;
+    margin-bottom: 2em;
+    height: auto;
+    width: 15%;
 }
 
 .buttons {
@@ -14,6 +17,23 @@
     border-width: 10em;
     width: 15%;
     margin: auto;
+}
+
+.left_footer{
+    justify-content: left;
+}
+.center_footer{
+    justify-content: center;
+}
+.right_footer{
+    justify-content: right;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 3em;
+    background-color: lightgray;
 }
 
 #button1 {
@@ -35,9 +55,9 @@
 }
 
 #search_bar {
-    border: 2px solid rgb(211, 211, 211);
+    border: 1px solid rgb(211, 211, 211);
     border-radius: 20px;
-    padding-right: 10em;
+    padding-right: 15em;
 
 }
 
