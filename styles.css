@@ -1,3 +1,17 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -6,17 +20,20 @@
 }
 
 .logo {
-    margin-top: 10em;
+    margin-top: 15em;
     margin-bottom: 2em;
     height: auto;
-    width: 15%;
+    width: 13%;
+    
 }
 
 .buttons {
-    padding-top: 1em;
-    border-width: 10em;
-    width: 15%;
-    margin: auto;
+    /*padding-top: 1em;*/
+    border-width: 12em;
+    margin: 0;
+    position: absolute;
+    top: 33%;
+    left: 44.5%;
 }
 
 .left_footer{
@@ -25,17 +42,12 @@
 
 .right_footer{
     float: right;
-    padding-right: 1em;
+    
 }
 
 footer {
-    position: absolute;
-    bottom: 0; 
-    width: 100%;
-    height: 2%;
     background-color: rgb(241, 241, 241);
-    padding-bottom: .5em;
-    font: roboto;
+    
 }
 
 #button1 {
@@ -59,12 +71,15 @@ footer {
 #search_bar {
     border: 1px solid rgb(211, 211, 211);
     border-radius: 20px;
-    padding-right: 15em;
-
+    padding-right: 8em;
+    height: 4.25%;
+    
 }
 
 #glass {
     height: auto;
-    width: 5%;
-    padding: .5em;
+    width: 3.5%;
+    padding-top: .75em;
+    padding-left: .5em;
+    /*padding: .5em;*/
     }
